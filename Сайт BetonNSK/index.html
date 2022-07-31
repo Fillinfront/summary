@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chief-slider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <title>Beton NSK</title>
+</head>
+<body class="body">
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="header-buttons">
+                <a href="index.html">Главная</a>
+                <a href="html/price.html">Цены</a>
+                <a href="html/services.html">Услуги</a>
+                <a href="html/about company.html">О компании</a>
+            </div>
+            <div class="function-buttons">
+                <a href="html/shop.html">Корзина</a>
+                <a>|</a>
+                <a href="html/shop.html" class="orders-btn"><i class="fa fa-cart-arrow-down"></i></a>
+            </div>
+            <div class="burger-menu">
+                <button onclick="burgerMenu()" class="burger-menu-button"><i class="fa fa-bars fa-1x"></i></button>
+            </div>
+        </div>
+        <div class="burger-list hide">
+            <div class="burger-list-buttons">
+                <a href="index.html">Главная</a>
+                <a href="html/price.html">Цены</a>
+                <a href="html/services.html">Услуги</a>
+                <a href="html/about company.html">О компании</a>
+                <a href="html/shop.html">Корзина</a>
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="main">
+            <div class="slider">
+                <div class="slider__container">
+                  <div class="slider__wrapper">
+                    <div class="slider__items">
+                      <div class="slider__item">
+                        <img src="images/slider.png">
+                      </div>
+                      <div class="slider__item">
+                        <img src="images/5.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="slider__control" data-slide="prev"></a>
+                <a href="#" class="slider__control" data-slide="next"></a>
+            </div>
+            <div class="slider-bottom-rectangle">
+                <img src="images/Rectangle 14.png" class="slider-bottom-rectangle">
+            </div>
+            <div class="main-services">
+                <h1>Услуги</h1>
+                <div class="services-tables">
+                    <div class="services-tables-table">
+                        <i class="fa fa-truck fa-5x"></i>
+                        <h1>ДОСТАВКА</h1>
+                        <p>Доставка о городу и области, по цене, которая ниже рыночной</p>
+                    </div>
+                    <div class="services-tables-table">
+                        <i class="fa fa-industry fa-5x"></i>
+                        <h1>ПРОИЗВОДСТВО</h1>
+                        <p>Вы покупаете бетон напрямую у завода производителя</p>
+                    </div>
+                    <div class="services-tables-table">
+                        <i class="fa fa-thumbs-up fa-5x"></i>
+                        <h1>КАЧЕСТВО</h1>
+                        <p>Наша продукция полностью сертифицирована. высококлассное оборудование</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <h1>Продукция нашей компании</h1>
+                <div class="products-tables">
+                    <div class="product-tables-table">
+                        <p>Бетон</p>
+                        <img src="images/beton.png" alt="бетон">
+                    </div>
+                    <div class="product-tables-table">
+                        <p>Раствор</p>
+                        <img src="images/rastvor.png" alt="бетон">
+                    </div>
+                    <div class="product-tables-table">
+                        <p>Блоки</p>
+                        <img src="images/bloki.png" alt="бетон">
+                    </div>
+                    <div class="product-tables-table">
+                        <p>Плиты</p>
+                        <img src="images/pliti.png" alt="бетон">
+                    </div>
+                </div>
+            </div>
+            <div class="about-company">
+                <h1>О нашей компании</h1>
+                <p>Торговая компания "Бетон НСК"- одна из ведущих компаний среди других, которая нацелена на производство и доставку бетона, раствора, фундаментных блоков и дорожных плит по Новосибирской Области. Мы всегда можем оформить срочный заказ на поставку того или иного товара в кратчайшие сроки. Производство ведется с помощью высококлассного оборудования, что позволяет получать клиентам компании качественный товар. Доставка производится на специально подготовленной технике в парке нашей компании. Ознакомиться со списком техники и доставкой вы можете на сайте. Наша компания работает без посредников, что позволяет иметь низкие цены на уже готовую продукцию.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <img src="images/logo.png" alt="logo">
+            <div class="footer-container-contacts">
+                <p>+7 (000) 000 00-00</p>
+                <p>© Beton NSK 2022. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/header_fix.js"></script>
+    <script src="js/chief-slider.js"></script>
+    <script src="https://kit.fontawesome.com/5e947c8c51.js" crossorigin="anonymous"></script>
+    <script src="js/burger-menu.js"></script>
+</body>
+</html>

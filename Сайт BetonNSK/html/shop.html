@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/chief-slider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <title>Beton NSK</title>
+</head>
+<body class="body">
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+            </div>
+            <div class="header-buttons">
+                <a href="../index.html">Главная</a>
+                <a href="price.html">Цены</a>
+                <a href="services.html">Услуги</a>
+                <a href="about company.html">О компании</a>
+            </div>
+            <div class="function-buttons">
+                <a href="shop.html">Корзина</a>
+                <a>|</a>
+                <a href="shop.html" class="orders-btn"><i class="fa fa-cart-arrow-down"></i></a>
+            </div>
+            <div class="burger-menu">
+                <button onclick="burgerMenu()" class="burger-menu-button"><i class="fa fa-bars fa-1x"></i></button>
+            </div>
+        </div>
+        <div class="burger-list hide">
+            <div class="burger-list-buttons">
+                <a href="../index.html">Главная</a>
+                <a href="price.html">Цены</a>
+                <a href="services.html">Услуги</a>
+                <a href="about company.html">О компании</a>
+                <a href="shop.html">Корзина</a>
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="main">
+            <div class="shop">
+                <div class="shop-order">
+                    <p class="shop-order-name">Сделать заказ</p>
+                    <div class="shop-order-menu">
+                        <div class="shop-order-menu-left">
+                            <p>Товар</p>
+                            <select id="names-input" name="names-input" onchange="set()" onclick="set()">
+                                <option value="0">Выберите из списка</option>
+                                <option value="beton">Бетон</option>
+                                <option value="rastvor">Раствор</option>
+                                <option value="bloki">Фундаментные блоки</option>
+                                <option value="plita">Дорожные плиты</option>
+                            </select>
+                            <p>Марка</p>
+                            <select id="marks-input" name="names-input" onclick="setPrice()" onchange="setPrice()">
+                                
+                            </select>
+                            <p>Объем (м3) / кол-во</p>
+                            <input id="shop-quantity" type="number" name="quantity" placeholder="Введите количество" onclick="setPrice()" onchange="setPrice()">
+                            <br>
+                            <br>
+                            <br>
+                            <div class="shop-order-price">
+                                <p>Общая стоимость:</p>
+                                <p id="order-price">0р</p>
+                            </div>
+                        </div>
+                        <div class="shop-order-menu-right">
+                            <p>Доставка</p>
+                            <select id="deliverys-input" name="names-input" onclick="setPrice()" onchange="setPrice()">
+                                <option value="0">Выберите из списка</option>
+                                <option value="100">Самовывоз</option>
+                                <option value="200">По городу</option>
+                                <option value="300">По области</option>
+                            </select>
+                            <button id="shop-button">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-bottom-rectangle">
+                    <img src="../images/Rectangle 14.png" class="slider-bottom-rectangle">
+                </div>
+                <h1>Список заказов</h1>
+                <div class="shop-orderlist" id="shop-orderlist">
+                    
+                </div>
+                <p class="order-noorders">У вас еще нет заказов</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <img src="../images/logo.png" alt="logo">
+            <div class="footer-container-contacts">
+                <p>+7 (000) 000 00-00</p>
+                <p>© Beton NSK 2022. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/header_fix.js"></script>
+    <script src="../js/chief-slider.js"></script>
+    <script src="https://kit.fontawesome.com/5e947c8c51.js" crossorigin="anonymous"></script>
+    <script src="../js/orders.js"></script>
+    <script src="../js/order-list.js"></script>
+    <script src="../js/burger-menu.js"></script>
+</body>
+</html>

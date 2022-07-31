@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/chief-slider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <title>Beton NSK</title>
+</head>
+<body class="body">
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+            </div>
+            <div class="header-buttons">
+                <a href="../index.html">Главная</a>
+                <a href="price.html">Цены</a>
+                <a href="services.html">Услуги</a>
+                <a href="about company.html">О компании</a>
+            </div>
+            <div class="function-buttons">
+                <a href="shop.html">Корзина</a>
+                <a>|</a>
+                <a href="shop.html" class="orders-btn"><i class="fa fa-cart-arrow-down"></i></a>
+            </div>
+            <div class="burger-menu">
+                <button onclick="burgerMenu()" class="burger-menu-button"><i class="fa fa-bars fa-1x"></i></button>
+            </div>
+        </div>
+        <div class="burger-list hide">
+            <div class="burger-list-buttons">
+                <a href="../index.html">Главная</a>
+                <a href="price.html">Цены</a>
+                <a href="services.html">Услуги</a>
+                <a href="about company.html">О компании</a>
+                <a href="shop.html">Корзина</a>
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="main">
+            <div class="price-tables"></div>
+                <h1>Расценки на всю продукцию</h1>
+                <h2>Бетон</h2>
+                <table class="price-table-first">
+                    <tr>
+                        <th><h1>Наименование<h1></th>
+                        <th><h1>Марка</h1></th>
+                        <th><h1>Цена</h1></th>
+                    </tr>
+                    <tr>
+                        <td>БСТ В7,5 П3 F75 W2</td>
+                        <td>М100</td>
+                        <td>3690р</td>
+                    </tr>
+                    <tr>
+                        <td>БСТ В7,5 П3 F75 W2</td>
+                        <td>М150</td>
+                        <td>3699р</td>
+                    </tr>
+                    <tr>
+                        <td>БСТ В7,5 П3 F75 W2</td>
+                        <td>М200</td>
+                        <td>3750р</td>
+                    </tr>
+                    <tr>
+                        <td>БСТ В7,5 П3 F75 W2</td>
+                        <td>М250</td>
+                        <td>3799р</td>
+                    </tr>
+                    <tr>
+                        <td>БСТ В7,5 П3 F75 W4</td>
+                        <td>М300</td>
+                        <td>3800р</td>
+                    </tr>
+                    <tr>
+                        <td>БСТ В7,5 П3 F75 W6</td>
+                        <td>М350</td>
+                        <td>3900р</td>
+                    </tr>
+                    <tr>
+                        <td>БСТ В7,5 П3 F75 W6</td>
+                        <td>М400</td>
+                        <td>3950р</td>
+                    </tr>
+                    <tr>
+                        <td>БСТ В7,5 П3 F75 W8</td>
+                        <td>М450</td>
+                        <td>4100р</td>
+                    </tr>
+                </table>
+                <h2>Раствор</h2>
+                <table class="price-table-second">
+                    <tr>
+                        <th><h1>Наименование<h1></th>
+                        <th><h1>Марка</h1></th>
+                        <th><h1>Цена</h1></th>
+                    </tr>
+                    <tr>
+                        <td>Кладочный раствор PK2</td>
+                        <td>М50</td>
+                        <td>2050р</td>
+                    </tr>
+                    <tr>
+                        <td>Кладочный раствор PK2</td>
+                        <td>М100</td>
+                        <td>2050р</td>
+                    </tr>
+                    <tr>
+                        <td>Кладочный раствор PK2</td>
+                        <td>М150</td>
+                        <td>2150р</td>
+                    </tr>
+                    <tr>
+                        <td>Кладочный раствор PK2</td>
+                        <td>М200</td>
+                        <td>2250р</td>
+                    </tr>
+                    <tr>
+                        <td>Штукатурный раствор</td>
+                        <td>М300</td>
+                        <td>2690р</td>
+                    </tr>
+                    <tr>
+                        <td>Штукатурный раствор</td>
+                        <td>М350</td>
+                        <td>2790р</td>
+                    </tr>
+                    <tr>
+                        <td>Штукатурный раствор</td>
+                        <td>М400</td>
+                        <td>2890р</td>
+                    </tr>
+                    <tr>
+                        <td>Штукатурный раствор</td>
+                        <td>М450</td>
+                        <td>3100р</td>
+                    </tr>
+                </table>
+                <h2>Фундаментные блоки</h2>
+                <table class="price-table-third">
+                    <tr>
+                        <th><h1>Наименование<h1></th>
+                        <th><h1>Размеры(мм)</h1></th>
+                        <th><h1>Вес(т)</h1></th>
+                        <th><h1>Цена</h1></th>
+                    </tr>
+                    <tr>
+                        <td>ФБС 9-3-6</td>
+                        <td>880-300-580</td>
+                        <td>0,350</td>
+                        <td>1090р</td>
+                    </tr>
+                    <tr>
+                        <td>ФБС 9-4-6</td>
+                        <td>880-400-580</td>
+                        <td>0,470</td>
+                        <td>1300р</td>
+                    </tr>
+                    <tr>
+                        <td>ФБС 9-5-6</td>
+                        <td>880-500-580</td>
+                        <td>0,590</td>
+                        <td>1550р</td>
+                    </tr>
+                    <tr>
+                        <td>ФБС 9-6-6</td>
+                        <td>880-600-580</td>
+                        <td>0,700</td>
+                        <td>1920р</td>
+                    </tr>
+                    <tr>
+                        <td>ФБС 24-3-6</td>
+                        <td>2380-300-580</td>
+                        <td>1,100</td>
+                        <td>2690р</td>
+                    </tr>
+                    <tr>
+                        <td>ФБС 24-4-6</td>
+                        <td>2380-400-580</td>
+                        <td>1,300</td>
+                        <td>2890р</td>
+                    </tr>
+                    <tr>
+                        <td>ФБС 24-5-6</td>
+                        <td>2380-500-580</td>
+                        <td>1,590</td>
+                        <td>3090р</td>
+                    </tr>
+                    <tr>
+                        <td>ФБС 24-6-6</td>
+                        <td>2380-600-580</td>
+                        <td>1,920</td>
+                        <td>3300р</td>
+                    </tr>
+                </table>
+                <h2>Дорожные плиты</h2>
+                <table class="price-table-fourth">
+                    <tr>
+                        <th><h1>Наименование<h1></th>
+                        <th><h1>Размеры(мм)</h1></th>
+                        <th><h1>Вес(т)</h1></th>
+                        <th><h1>Цена</h1></th>
+                    </tr>
+                    <tr>
+                        <td>Плита 1П</td>
+                        <td>3000-1750-170</td>
+                        <td>2,200</td>
+                        <td>3090р</td>
+                    </tr>
+                    <tr>
+                        <td>Плита 2П</td>
+                        <td>3600-1750-170</td>
+                        <td>2,700</td>
+                        <td>4290р</td>
+                    </tr>
+                    <tr>
+                        <td>Плита 1ПЖСН</td>
+                        <td>2980-1750-170</td>
+                        <td>1,530</td>
+                        <td>5200р</td>
+                    </tr>
+                    <tr>
+                        <td>Плита 2ПЖСН</td>
+                        <td>3490-1900-170</td>
+                        <td>2,490</td>
+                        <td>6090р</td>
+                    </tr>
+                </table>
+                <div class="calculator">
+                    <h1>Калькулятор стоимости</h1>
+                    <div class="price-calculator">
+                        <div class="price-calculator-names">
+                            <p>Выберите материал</p>
+                            <select id="names-input" name="names-input" onchange="set()" onclick="set()">
+                                <option value="0">Выберите из списка</option>
+                                <option value="beton">Бетон</option>
+                                <option value="rastvor">Раствор</option>
+                                <option value="bloki">Фундаментные блоки</option>
+                                <option value="plita">Дорожные плиты</option>
+                            </select>
+                        </div>
+                        <div class="price-calculator-marks">
+                            <p>Выберите марку</p>
+                            <select id="marks-input" name="names-input">
+                                
+                            </select>
+                        </div>
+                        <div class="price-calculator-quantity">
+                            <p>Объем (м3) / кол-во</p>
+                            <input type="text" name="quantity" id="calculator-quantity" placeholder="Введите количество">
+                        </div>
+                    </div>
+                    <button onclick="setPrice()" class="calculator-calculate">Посчитать</button>
+                    <p class="calculated-price">Общая стоимость: </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <img src="../images/logo.png" alt="logo">
+            <div class="footer-container-contacts">
+                <p>+7 (000) 000 00-00</p>
+                <p>© Beton NSK 2022. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/header_fix.js"></script>
+    <script src="../js/chief-slider.js"></script>
+    <script src="https://kit.fontawesome.com/5e947c8c51.js" crossorigin="anonymous"></script>
+    <script src="../js/price-list.js"></script>
+    <script src="../js/burger-menu.js"></script>
+</body>
+</html>
